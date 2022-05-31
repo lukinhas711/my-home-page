@@ -31,7 +31,12 @@ header {
 
 .weather {
   display: flex;
-  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  border-radius: 12px;
+  transition-duration: 300ms;
+  padding: .5rem;
 }
 
 .weather-text {
