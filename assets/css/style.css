@@ -21,6 +21,12 @@ header {
 
 .clock {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  border-radius: 12px;
+  transition-duration: 200ms;
+  padding: .5rem;
 }
 
 .weather {
@@ -31,6 +37,11 @@ header {
 .weather-text {
   display: flex;
   flex-direction: column;
+}
+
+.clock:hover,.weather:hover {
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
 }
 
 .main-content {
