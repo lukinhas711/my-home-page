@@ -8,8 +8,8 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Home Screen</title>
 </head>
-<body>
-  <main>
+<body onload="load()">
+  <main id="app">
     <header>
       <div class="clock">
         <img src="assets/icons/clock.svg" alt="relógio" width="24px">
@@ -18,11 +18,11 @@
         </span>
       </div>
       <div class="weather" id="weather">
-        <img src="" alt="">
+        <!-- <img src="" alt="">
         <div class="weather-text">
           <span>17C</span>
           <span>Chuva</span>
-        </div>
+        </div> -->
       </div>
     </header>
     <section class="main-content">
@@ -101,5 +101,6 @@
     </section>
     <span class="by">Designed by <a href="" class="link">Lucas Ribeiro</a></span>
   </main>
+  <script src="assets/scripts/script.js"></script>
 </body>
 </html>

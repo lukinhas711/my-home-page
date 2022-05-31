@@ -1,10 +1,10 @@
-main {
+#app {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100vh;
   color: #e2e8f0;
-  background-image: url(../../assets/images/montereyDark.jpeg);
+  background-image: url(../images/tarde.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
