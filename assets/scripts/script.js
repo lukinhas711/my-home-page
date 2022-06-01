@@ -10,9 +10,8 @@ function load() {
  } else {
    minutes = minutes
  }
-
+  
   clock.innerHTML = `${hour}:${minutes}`
-
 
   if(hour >= 6 && hour <= 11) {
     periodMessage.innerHTML = "Bom dia"
