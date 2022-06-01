@@ -13,11 +13,13 @@ function load() {
   
   clock.innerHTML = `${hour}:${minutes}`
 
-  if(hour >= 6 && hour <= 11) {
+  if (hour > 5 && hour <= 11) {
     periodMessage.innerHTML = "Bom dia"
-  } if (hour > 11 && hour <= 17) {
+  } 
+  if (hour > 11 && hour <= 17) {
     periodMessage.innerHTML = "Boa tarde"
-  } else {
+  } 
+  if (hour > 17 & hour < 5) {
     periodMessage.innerHTML = "Boa noite"
   }
 }
