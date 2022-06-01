@@ -3,9 +3,16 @@ function load() {
   let periodMessage = document.querySelector('#day-time')
   let date = new Date()
   let hour = date.getHours()
-  let minutes = date.getMinutes() 
+  let minutes = date.getMinutes()
+
+ if(minutes < 10) {
+   minutes = `0${minutes}`
+ } else {
+   minutes = minutes
+ }
 
   clock.innerHTML = `${hour}:${minutes}`
+
 
   if(hour >= 6 && hour <= 11) {
     periodMessage.innerHTML = "Bom dia"
